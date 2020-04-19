@@ -248,7 +248,7 @@ p{
 .fs-45{font-size: 45px;}
 .fs-50{font-size: 50px;}
 
-/***** colors ***1**/
+/***** colors *****/
 .color-ccc{color: #ccc;}
 .color-ddd{color: #ddd;}
 .color-e5e5e5{color: #e5e5e5;}
@@ -263,10 +263,10 @@ p{
 .color-333{color: #333;}
 .color-555{color: #555;}
 .color-gray{color: #edf5ff;}
-.color-blue{color: #008dff;}
-.color-blue-hvr:hover{color: #008dff;}
+.color-blue{color: #00a2ff;}
+.color-blue-hvr:hover{color: #00a2ff;}
 .color-orange{color: #00a2ff;}
-.color-orange-hvr:hover{color: #008dff;}
+.color-orange-hvr:hover{color: #00a2ff;}
 .color-green{color: #1eda65;}
 .color-green-hvr:hover{color: #1eda65;}
 
@@ -350,7 +350,7 @@ p{
 .navbar-colored .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active,
 .navbar-colored .navbar-nav .nav-link.active{
-	color: #008dff;
+	color: #00a2ff;
 }
 /*----------------------------------------------------
 					End navbar
