@@ -1,0 +1,137 @@
+
+
+/*    - Global Settings   */
+html, body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+p{
+	font-size: 14px; 
+	line-height: 23px;
+	font-weight: 400; 
+	color: #737373;
+	margin-bottom: 10px;
+}
+
+img {width: auto; max-width: 100%; height: auto;}
+ted
+
+
+/*   - Navbar   */
+.navbar {
+	min-height: 88px;
+	padding: .5em;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.navbar-nav li{
+    padding-right: 1.5rem;
+}
+
+.navbar-light .nav-item a.active,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #0062ff;
+}
+
+/*   - Colors    */
+.color-blue{color: #0062ff;}
+.color-blue-hvr:hover{color: #0062ff;}
+.bg-gray{background-color: #edf5ff;}
+
+
+.container {
+	width: auto;
+    max-width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container1 {
+	width: auto;
+    max-width: 100%;
+	max-height: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-center{ 
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+#welcome-area {
+	min-height: 550px;
+	background: url(../images/banner.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#welcome-area h1{
+	font-size: 55px; 
+	line-height: 65px; 
+	font-weight: 600;
+}
+
+h1{font-size: 44px; line-height: 49px; font-weight: 600}
+h2{font-size: 34px; line-height: 38px; font-weight: 600}
+h3{font-size: 30px; line-height: 35px; font-weight: 600}
+h6{font-size: 17px; line-height: 20px; font-weight: 600}
+
+
+/**** padding ****/
+.sec-padding{padding: 40px 0;}
+.sm-padding{padding: 25px 0;}
+.book-padding{padding: 40px 0;}
+.booksec-padding{padding: 80px 0;}
+
+.about-text{
+	font-size: 30px;
+	line-height: 40px;
+	border-radius: 50px;
+	color: #0062ff;
+	background-color: #edf5ff;
+}
+
+.content-align{
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1.5rem;
+}
+
+.book-align{
+	justify-content: space-around;
+	align-items: center;
+	text-align:center;
+	margin-bottom: 1.5rem;
+}
+
+.podcast-align{
+	justify-content: space-around;
+	align-items: center;
+	text-align:center;
+	margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
