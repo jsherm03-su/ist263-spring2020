@@ -3,8 +3,6 @@
 /*    - Global Settings   */
 html, body{
 	font-family: sans-serif;
-	margin: 0;
-	padding: 0;
 }
 
 
@@ -15,9 +13,6 @@ p{
 	color: #737373;
 	margin-bottom: 10px;
 }
-
-img {width: auto; max-width: 100%; height: auto;}
-ted
 
 
 /*   - Navbar   */
@@ -34,12 +29,15 @@ ted
     padding-right: 1.5rem;
 }
 
-.navbar-light .nav-item a.active,
+
+.navbar-light .nav-item .active .nav-link,
 .navbar-light .nav-item .nav-link:active,
 .navbar-light .nav-item .nav-link:focus,
 .navbar-light .nav-item:hover .nav-link {
     color: #0062ff;
 }
+
+
 
 /*   - Colors    */
 .color-blue{color: #0062ff;}
@@ -95,12 +93,6 @@ h2{font-size: 34px; line-height: 38px; font-weight: 600}
 h3{font-size: 30px; line-height: 35px; font-weight: 600}
 h6{font-size: 17px; line-height: 20px; font-weight: 600}
 
-
-/**** padding ****/
-.sec-padding{padding: 40px 0;}
-.sm-padding{padding: 25px 0;}
-.book-padding{padding: 40px 0;}
-.booksec-padding{padding: 80px 0;}
 
 .about-text{
 	font-size: 30px;

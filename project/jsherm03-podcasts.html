@@ -5,7 +5,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="author" content="Jake Sherman">
     <title>CX Podcasts</title>
 
    
@@ -15,8 +14,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
@@ -50,7 +49,7 @@
     <!-- End navbar-->
 
     <!--welcome-page-->
-    <section class="sec-padding bg-gray">
+    <section class="py-5 bg-gray">
         <div class="container">
             <div class="row flex-center">
                 <div class="col-md-12">
@@ -62,17 +61,17 @@
     <!--End welcome-page-->
 
     <!-- CX Correct Starts -->
-    <section class="cx-podcast sec-padding">
+    <section class="cx-podcast py-5">
         <div class="container">
             <!-- 1 -->
             <div class="row pt-md-5 podcast-align">
-                <div class="col-md-5">
-                    <img src="images/cx-1.png" class="img-fluid book-img" alt="Human Duct Tape Show Podcast with Jeanne Blis">
+                <div class="col-md-5 wow fadeInDownBig" data-wow-delay=".1s">
+                    <img src="images/cx-1.png" class="img-fluid" alt="Human Duct Tape Show Podcast with Jeanne Blis">
                     <p></p>
                     <p><a class="btn btn-dark mb-5 mb-md-0" href="https://podcasts.apple.com/us/podcast/the-chiefcustomer-officer-humanduct-tape-show/id1113056721" role="button">Listen on Apple Podcasts</a></p>
                 </div>
-                <div class="col-md-5">
-                    <img src="images/cx-3.png" class="img-fluid book-img" alt="The Modern Customer Podcast with Blake Morgan">
+                <div class="col-md-5 wow fadeInDownBig" data-wow-delay=".1s">
+                    <img src="images/cx-3.png" class="img-fluid" alt="The Modern Customer Podcast with Blake Morgan">
                     <p></p>
                     <p><a class="btn btn-dark" href="https://podcasts.apple.com/us/podcast/the-moderncustomer-podcast/id1028911150" target="blank" role="button">Listen on Apple Podcasts</a></p>
                 </div>
@@ -81,27 +80,27 @@
             <div class="row py-5 py-md-0 justify-content-around">
                 <div class="col-md-4">
                     <div class="book-circle">
-                        <img src="images/podcasts-circle.png" class="img-fluid book-img" alt="Page Contains Top CX Podcasts">
+                        <img src="images/podcasts-circle.png" class="img-fluid" alt="Page Contains Top CX Podcasts">
                     </div>
                 </div>
             </div>
             <!-- 3 -->
             <div class="row py-5 podcast-align">
-                <div class="col-md-5">
-                    <img src="images/cx-2.png" class="img-fluid book-img" alt="Navigating the Customer Experience Podcast with Yanique Grant">
+                <div class="col-md-5 wow fadeInLeftBig" data-wow-delay=".1s">
+                    <img src="images/cx-2.png" class="img-fluid" alt="Navigating the Customer Experience Podcast with Yanique Grant">
                     <p></p>
                     <p><a class="btn btn-dark mb-5 mb-md-0" href="https://podcasts.apple.com/us/podcast/navigating-thecustomer-experience/id1115751484" target="blank" role="button">Listen on Apple Podcasts</a></p>
                 </div>
-                <div class="col-md-5">
-                    <img src="images/cx-4.png" class="img-fluid book-img" alt="Customer Experience Leaders Podcast by Rateit">
+                <div class="col-md-5 wow fadeInRightBig" data-wow-delay=".1s">
+                    <img src="images/cx-4.png" class="img-fluid" alt="Customer Experience Leaders Podcast by Rateit">
                     <p></p>
                     <p><a class="btn btn-dark" href="https://podcasts.apple.com/au/podcast/id1289289138" target="blank" role="button">Listen on Apple Podcasts</a></p>
                 </div>
             </div>
             <!-- 4 -->
             <div class="row podcast-align">
-                <div class="col-md-12">
-                        <img src="images/cx-5.png" class="img-fluid book-img" alt="Decoding the Cudtomer Podcast by Julia Ahlfeldt">
+                <div class="col-md-12 wow fadeInUpBig" data-wow-delay=".1s">
+                        <img src="images/cx-5.png" class="img-fluid" alt="Decoding the Cudtomer Podcast by Julia Ahlfeldt">
                         <p></p>
                         <p><a class="btn btn-dark " href="https://podcasts.apple.com/us/podcast/decoding-thecustomer/id1273790017" target="blank" role="button">Listen on Apple Podcasts</a></p>
                 </div>
@@ -111,12 +110,17 @@
     <!-- CX Correct Ends -->
 
     <!-- copyright-area -->
-    <section class="bg-gray sm-padding text-center">
+    <section class="bg-gray py-4 text-center">
         <div class="container">
             <h6 class="mb-0px">© 2020. All rights reserved.</h6>
         </div>
     </section>
     <!-- End copyright-area-->
+
+    <!-- Javascript to animate scrolling-->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
 </body>
 
 </html>
