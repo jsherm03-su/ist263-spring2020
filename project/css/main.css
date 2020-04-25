@@ -1,21 +1,7 @@
-
-
-/*    - Global Settings   */
 html, body{
 	font-family: sans-serif;
 }
 
-
-p{
-	font-size: 14px; 
-	line-height: 23px;
-	font-weight: 400; 
-	color: #737373;
-	margin-bottom: 10px;
-}
-
-
-/*   - Navbar   */
 .navbar {
 	min-height: 88px;
 	padding: .5em;
@@ -36,12 +22,21 @@ p{
     color: #0062ff;
 }
 
+.color-blue, .color-blue-hvr:hover{
+	color: #0062ff;
+	}
 
-/*   - Colors    */
-.color-blue{color: #0062ff;}
-.color-blue-hvr:hover{color: #0062ff;}
-.bg-gray{background-color: #edf5ff;}
+.bg-gray{
+	background-color: #edf5ff;
+}
 
+p{
+	font-size: 14px; 
+	line-height: 23px;
+	font-weight: 400; 
+	color: #737373;
+	margin-bottom: 10px;
+}
 
 .container {
 	width: auto;
@@ -52,7 +47,6 @@ p{
     margin-left: auto;
 }
 
-
 .container1 {
 	width: auto;
     max-width: 100%;
@@ -61,13 +55,11 @@ p{
     margin-left: auto;
 }
 
-
 .flex-center{ 
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-
 
 #welcome-area {
 	min-height: 550px;
@@ -83,14 +75,19 @@ p{
 	text-align: center;
 }
 
-h1{font-size: 44px; line-height: 49px; font-weight: 600}
-h2{font-size: 34px; line-height: 38px; font-weight: 600}
-h3{font-size: 30px; line-height: 35px; font-weight: 600}
-h6{font-size: 17px; line-height: 20px; font-weight: 600}
+h1{
+	font-size: 44px; 
+	line-height: 49px; 
+	font-weight: 600
+}
 
+h2, h3{
+	font-size: 30px; 
+	line-height: 35px; 
+	font-weight: 600
+}
 
 .about-text{
-	font-size: 30px;
 	line-height: 40px;
 	border-radius: 50px;
 	color: #0062ff;
@@ -103,19 +100,13 @@ h6{font-size: 17px; line-height: 20px; font-weight: 600}
 	margin-bottom: 1.5rem;
 }
 
-.book-align{
+.book-align, .podcast-align{
 	justify-content: space-around;
 	align-items: center;
 	text-align:center;
 	margin-bottom: 1.5rem;
 }
 
-.podcast-align{
-	justify-content: space-around;
-	align-items: center;
-	text-align:center;
-	margin-bottom: 1.5rem;
-}
 
 
 
